@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Account Sign Up</title>
+        <link rel="stylesheet" href="form1.css">
+    </head>
+    
+<body>
+    <header>
+        <h1> Account Sign Up </h1>
+    </header>
+    <form name="signupform" id="signupform" action="login.php" method="get">
+    	<fieldset>
+    		<legend>Account information</legend>
+        <label for="email"> E-Mail: </label> <input type="text" id="email" name="email"> <br>
+        <label for="password">Password: </label><input type="password" id="password" name="password" placeholder="Enter your password"> <br>
+        <label for="phonenumber"> Phone Number: </label> <input type="text" id="phonenumber" name="phonenumber"> 
+    	</fieldset>
+
+    	<fieldset>
+    	<legend>Settings</legend>
+    	<div>How did you hear about us?</div>
+    	<form>
+  			<input type="radio" id="search" name="xyx" value="Search Engine" > Search Engine<br>
+  			<input type="radio" id="WOM" name="xyx" value="Word of mouth"> Word of mouth<br>
+  			<input type="radio" id="other" name="xyz" value="other"> Other  
+  		</fieldset>
+  			<input type="submit" value="sign up"/>
+  			<p> Would you like to receive announcements about new products and special offers? </p>
+  			<input type="checkbox" name="checkbox" value="check"> YES I'd like to receive information about new products  and special offers
+  			<p>Contact via: </p>
+  				<select>
+  				<option>Email</option>
+  				<option>Phone</option>
+  				<option>xyz</option>
+  				</select>
+  			<p>Comments: </p>
+  				<textarea rows="4" cols="70">
+			 
+				</textarea>
+		</form> 
+</body>
+</html>
